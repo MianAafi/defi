@@ -34,10 +34,13 @@ function App() {
                   {activeTab === "send" && (
                     <div className="">
                       <div className="d-flex gap-5 align-items-center">
-                        <div>
-                          <h1>
+                        <div className="TotalAmountDiv">
+                          <div>
+                          <h1 className="TotalAmount">
                             $100.00
-                          </h1>
+                          </h1> 
+                          <span></span>
+</div>
                           <p>
                             0 BTC ≈ $0.00
                           </p>

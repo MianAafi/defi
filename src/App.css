@@ -1,53 +1,63 @@
-.SendAndRecieve{
+.SendAndRecieve {
   display: flex;
 }
-
 
 .tab-buttons {
   display: flex;
+  justify-content: center;
+
 }
 
 .tab-button {
-  background-color: #fff;
+  /* background-color: #fff; */
+  margin-top: 20px;
+  width: 95.44px;
   padding: 10px;
   border: none;
   outline: none;
   cursor: pointer;
   border-radius: 5px;
   margin-right: 10px;
+  /* background: #EBF0F01A; */
+  background-color: black;
+  
+  color: white;
 }
 
 .tab-button.active {
-  background-color: #171818; 
-  color: #fff; 
+  background-color: #171818;
+  color: #fff;
 }
-
 
 .form-content {
   background: #171818;
   border-radius: 15px;
-
 }
 .form-content p {
-font-family: Inter;
-font-size: 12px;
-font-weight: 500;
-line-height: 18px;
-color: #7C7D7D;
-letter-spacing: 0px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #7c7d7d;
+  letter-spacing: 0px;
+}
+
+.TotalAmount{
+  font-family: inter;
+  font-size: 56px;
+  font-weight: 800;
+  color: white;
 
 }
 .form-content h5 {
-font-family: Inter;
-font-size: 14px;
-font-weight: 700;
-line-height: 21px;
-letter-spacing: 0px;
-text-align: left;
-
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
 }
 .form-content button {
-  background-color: #0052FF;
+  background-color: #0052ff;
   width: 100%;
-
 }
