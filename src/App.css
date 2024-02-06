@@ -1,8 +1,36 @@
 .SendAndRecieve{
   display: flex;
 }
+.nav {
+  box-shadow: 0px 11px 15px 0px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 9px 46px 0px rgba(0, 0, 0, 0.12);
+background: rgba(17, 16, 16, 0.77);
+margin: 7px 0 ;
+border-radius: 8px;
+padding: 9px;
+box-shadow: 0px 24px 38px 0px rgba(0, 0, 0, 0.14);
+width: 100%;
+justify-content: space-between;
+align-items: center;
+color: white ;
+display: flex;
 
-
+}
+.bg-img {
+  background-image: url(../public/images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.bg-blur {
+box-shadow: 0px 11px 15px 0px #00000033;
+box-shadow: 0px 9px 46px 0px #0000001F;
+box-shadow: 0px 24px 38px 0px #00000024;
+background: #111010C4;
+border-radius: 5px;
+padding: 10px;
+}
 .tab-buttons {
   display: flex;
 }
