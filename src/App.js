@@ -1,24 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
+import SendAgain from './SendAgain';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <>
+    <div className="container">
+      <div className="row SendAndRecieve">
+        <div className="col-6  ">
+        huhu
+        </div>
+        <div className="col-6 "> <SendAgain/></div>
+      </div>
+
     </div>
+  </>
   );
 }
 

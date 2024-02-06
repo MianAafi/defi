@@ -1,0 +1,26 @@
+.SendAgain {
+    background-color: #000;
+    color: #fff;
+    padding: 4px;
+    border: 1px solid #CFDBD533;
+
+  }
+  .CryptoMoneyData{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .transaction {
+    margin-bottom: 10px;
+  }
+  
+  .transaction p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .transaction p svg {
+    margin-right: 10px;
+  }
+  
