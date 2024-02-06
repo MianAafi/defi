@@ -5,7 +5,7 @@ import SendAgain from './SendAgain';
 function App() {
   return (
   <>
-    <div className="container">
+    <div className="container SendAndRecieveContainer">
       <div className="row SendAndRecieve">
         <div className="col-6  ">
         huhu

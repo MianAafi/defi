@@ -1,6 +1,7 @@
 .SendAgainContainer {
   padding: 4px;
   background-color: #000;
+  border-radius: 20px;
 }
 .SendAgain {
   color: #fff;
