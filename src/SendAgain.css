@@ -1,26 +1,61 @@
+.SendAgainContainer {
+  padding: 4px;
+  background-color: #000;
+}
 .SendAgain {
-    background-color: #000;
-    color: #fff;
-    padding: 4px;
-    border: 1px solid #CFDBD533;
+  color: #fff;
+  border: 1px solid #cfdbd533;
+  border-radius: 20px ;
+}
+.SendAgaintexth5 {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  border-bottom: 1px solid #cfdbd533;
+}
+.CryptoMoneyData {
+  display: flex;
+  justify-content: space-between;
+}
 
-  }
-  .CryptoMoneyData{
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .transaction {
-    margin-bottom: 10px;
-  }
-  
-  .transaction p {
-    margin: 0;
+.CryptoMoneyData {
+  height: 68.74px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.CryptoIcon {
+  padding-left: 24px;
+}
+.CryptoNumber {
+  font-family: inter;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  padding-left: 10px;
+  background: linear-gradient(90deg, #FFFFFF 90%, #24242400 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline;
+
+
+}
+.CryptoAmount {
+  font-family: inter;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  margin-right: 21px;
+}
+.AllTransactionLink{
+    height: 57.65px;
     display: flex;
     align-items: center;
-  }
-  
-  .transaction p svg {
-    margin-right: 10px;
-  }
-  
+    margin-bottom: 20px;
+    padding-left: 55px;
+    text-decoration: none;
+    color: #0052FF;
+    
+}
