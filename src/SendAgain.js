@@ -28,7 +28,7 @@ function SendAgain() {
           icon={transaction.icon}
           id={transaction.id}
           amount={transaction.amount}
-          bgColor={transaction.bgColor} // Pass the background color as a prop
+          bgColor={transaction.bgColor} 
         />
       ))}
       <a href="/transactions">See All Transactions</a>
