@@ -1,19 +1,23 @@
 .SendAgainContainer {
-  padding: 4px;
+  padding: 8px;
   background-color: #000;
   border-radius: 20px;
+  height: 833px;
+  border: 1px solid #cfdbd5;
 }
 .SendAgain {
   color: #fff;
   border: 1px solid #cfdbd533;
-  border-radius: 20px ;
+  border-radius: 20px;
 }
+
 .SendAgaintexth5 {
   height: 60px;
   display: flex;
   align-items: center;
   padding-left: 24px;
   border-bottom: 1px solid #cfdbd533;
+  margin-bottom: 17px;
 }
 .CryptoMoneyData {
   display: flex;
@@ -24,7 +28,8 @@
   height: 68.74px;
   display: flex;
   align-items: center;
-  margin: 0;
+  margin-top: 4.5px;
+  margin-bottom: 0;
 }
 .CryptoIcon {
   padding-left: 24px;
@@ -35,13 +40,11 @@
   font-weight: 700;
   color: white;
   padding-left: 10px;
-  background: linear-gradient(90deg, #FFFFFF 90%, #24242400 100%);
+  background: linear-gradient(90deg, #ffffff 90%, #24242400 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   display: inline;
-
-
 }
 .CryptoAmount {
   font-family: inter;
@@ -50,13 +53,17 @@
   color: white;
   margin-right: 21px;
 }
-.AllTransactionLink{
-    height: 57.65px;
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    padding-left: 55px;
-    text-decoration: none;
-    color: #0052FF;
-    
+.AllTransactionLink {
+  height: 57.65px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-left: 55px;
+  text-decoration: none;
+  color: #0052ff;
+}
+@media screen and  (max-width: 991px) {
+  .SendAgainCol{
+    margin-top: 20px;
+  }
 }

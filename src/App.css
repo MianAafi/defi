@@ -1,42 +1,50 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Exo:wght@200;300;400;500;600;700&family=Gloria+Hallelujah&family=Inter:wght@300;400;500;600;700&family=Jost:wght@300;400;600&family=Mulish:wght@300;500;600;700&family=Noto+Naskh+Arabic:wght@400;500;600&family=Nunito:wght@300;400;500;600&family=Open+Sans:wght@300;400;500;600&family=Poppins:wght@400;500;600;700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Inter:wght@300;400;500;600;700&family=Jost:wght@300;400;600&family=Mulish:wght@300;500;600;700&family=Noto+Naskh+Arabic:wght@400;500;600&family=Nunito:wght@300;400;500;600&family=Open+Sans:wght@300;400;500;600&family=Poppins:wght@400;500;600;700&display=swap'); */
+
 .SendAndRecieve {
   display: flex;
 }
 .nav {
   box-shadow: 0px 11px 15px 0px rgba(0, 0, 0, 0.2);
-box-shadow: 0px 9px 46px 0px rgba(0, 0, 0, 0.12);
-background: rgba(17, 16, 16, 0.77);
-margin: 7px 0 ;
-border-radius: 8px;
-padding: 9px;
-box-shadow: 0px 24px 38px 0px rgba(0, 0, 0, 0.14);
-width: 100%;
-justify-content: space-between;
-align-items: center;
-color: white ;
-display: flex;
-
+  box-shadow: 0px 9px 46px 0px rgba(0, 0, 0, 0.12);
+  background: rgba(17, 16, 16, 0.77);
+  margin: 0;
+  border-radius: 5px;
+  padding: 0px;
+  height: 39px;
+  box-shadow: 0px 24px 38px 0px rgba(0, 0, 0, 0.14);
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  display: flex;
 }
+
 .bg-img {
   background-image: url(../public/images/bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: auto;
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
 .bg-blur {
-box-shadow: 0px 11px 15px 0px #00000033;
-box-shadow: 0px 9px 46px 0px #0000001F;
-box-shadow: 0px 24px 38px 0px #00000024;
-background: #111010C4;
-border-radius: 5px;
-padding: 10px;
+  box-shadow: 0px 11px 15px 0px #00000033;
+  box-shadow: 0px 9px 46px 0px #0000001f;
+  box-shadow: 0px 24px 38px 0px #00000024;
+  background: #111010c4;
+  border-radius: 5px;
+  padding: 10px;
 }
 .tab-buttons {
   display: flex;
   justify-content: center;
-
 }
-
+.midContainer {
+  padding: 10px 30px 50px 30px;
+}
 .tab-button {
   /* background-color: #fff; */
   margin-top: 20px;
@@ -49,21 +57,45 @@ padding: 10px;
   margin-right: 10px;
   /* background: #EBF0F01A; */
   background-color: black;
-  
+
   color: white;
+}
+.Signin {
+  padding-left: 10px;
+}
+.SigninText {
+  font-family: 'Exo', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  padding-left: 20px;
 }
 
 .tab-button.active {
   background-color: #171818;
   color: #fff;
 }
-
+.send-display {
+  border-radius: 20px;
+  padding: 0 23px 0 40px;
+}
 .form-content {
   background: #171818;
   border-radius: 15px;
 }
+#formContentSend {
+  height: 244px;
+}
+#formContentRecieve {
+  height: 168px;
+  padding: 8px 0;
+}
+.BitcoinRecieveAssests {
+  margin-left: 33px;
+}
 .form-content p {
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
+
   font-size: 12px;
   font-weight: 500;
   line-height: 18px;
@@ -71,22 +103,318 @@ padding: 10px;
   letter-spacing: 0px;
 }
 
-.TotalAmount{
-  font-family: inter;
+.TotalAmount {
+  font-family: 'Inter', sans-serif;
   font-size: 56px;
   font-weight: 800;
   color: white;
-
 }
 .form-content h5 {
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
+
   font-size: 14px;
   font-weight: 700;
   line-height: 21px;
   letter-spacing: 0px;
   text-align: left;
 }
-.form-content button {
-  background-color: #0052ff;
+
+.TotalAmountspan > p {
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+
+  font-weight: 400;
+  margin-left: 30%;
+  color: #ffffff80;
+  margin-top: -10px;
+}
+.SendAndRecieveContainer {
+  height: 833px;
+  border-radius: 20px;
+  border: 1px solid #cfdbd5;
+}
+
+.TotalAmountDiv {
+  display: flex;
+  margin-left: 20%;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.QRCodeDiv {
+  display: flex;
+  margin-left: 25%;
+  margin-top: 70px;
+  margin-bottom: 180px;
+}
+.amountIcon > img {
+  padding: 15px;
+  border: 1px solid #cfdbd533;
+  margin-left: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.TotalAmount {
+  color: white;
+  font-size: 56px;
+  font-weight: 800;
+  font-family: 'Inter', sans-serif;
+
+  text-align: center;
+}
+.ContinueTransferBtn {
+  height: 52px;
+  background: #0052ff;
+  color: white;
+  font-family: 'Inter', sans-serif;
+
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 5px;
   width: 100%;
+  border: none;
+  margin-top: 56px;
+}
+.totalAmountData {
+  padding-left: 40px;
+}
+#totalAmountDataRecieve {
+  margin-top: 10px;
+}
+.totalAmountData > p {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  color: #ffffff80;
+}
+.divider {
+  border: 0.5px solid #cfdbd533;
+  padding: 0 40px;
+  width: 88%;
+  margin-left: 40px;
+}
+.totalAmountData > h6 {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+
+  color: white;
+}
+.totalAmountData > h5 {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+
+  color: #ffffff80;
+}
+.iconForminimize {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+.SendAndRecieveTextIconBG {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 45%;
+}
+.SendAndRecieveTextIconBG > h6 {
+  font-family: 'Exo', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 16px;
+}
+.Circle {
+  background-color: black;
+  color: white;
+  width: 23px;
+  height: 23px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+.circleIcon {
+  width: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.MainContainerTimeAndicon {
+  display: flex;
+  justify-content: flex-end;
+  height: 39px;
+}
+.zoonicon {
+  width: 27px;
+  height: 26px;
+  margin-right: 20px;
+  padding-top: 6px;
+}
+.navtext {
+  font-family: 'Exo', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 18px;
+  padding-top: 2px;
+}
+.navtextdate {
+  font-family: 'Exo', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 18px;
+  padding-left: 30px;
+}
+.navicon > span {
+  font-family: 'Exo', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 18px;
+}
+.navicon {
+  background-color: #ff0000;
+  border-radius: 20px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-right: 20px;
+  margin-left: 30px;
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .totalAmountData {
+    padding-left: 20px;
+  }
+  .divider {
+    width: 93%;
+    margin-left: 15px;
+  }
+  .totalAmountData {
+    padding-left: 15px;
+  }
+  .totalAmountData > h6 {
+    margin-left: -20px;
+  }
+  .totalAmountData > h5 {
+    margin-left: -20px;
+  }
+  .SendAndRecieveTextIconBG {
+    margin-left: 40%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .SendAndRecieveTextIconBG {
+    margin-left: 35%;
+  }
+  .TotalAmountDiv {
+    margin-left: 30%;
+  }
+  .QRCodeDiv {
+    margin-left: 30%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .TotalAmountDiv {
+    margin-left: 25%;
+  }
+  .QRCodeDiv {
+    margin-left: 23%;
+  }
+  .totalAmountData {
+    padding-left: 20px;
+  }
+  .divider {
+    width: 93%;
+    margin-left: 20px;
+  }
+  .totalAmountData > h6 {
+    margin-left: -20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .SendAndRecieveTextIconBG {
+    margin-left: 30%;
+  }
+}
+@media screen and (max-width: 508px) {
+  .SendAndRecieveTextIconBG {
+    margin-left: 20%;
+  }
+  .TotalAmountDiv {
+    margin-left: 18%;
+  }
+  .QRCodeDiv {
+    margin-left: 18%;
+  }
+  .send-display {
+    border-radius: 10px;
+    padding: 0 10px 0 15px;
+  }
+}
+@media screen and (max-width: 465px) {
+  .TotalAmountDiv {
+    margin-left: 15%;
+  }
+  .QRCodeDiv {
+    margin-left: 20%;
+  }
+  .send-display {
+    border-radius: 10px;
+    padding: 0 5px 0 10px;
+  }
+  .midContainer {
+    padding: 10px 10px 50px 10px;
+  }
+
+  .totalAmountData > h6 {
+    font-size: 12px;
+    margin-left: -25px;
+  }
+  .totalAmountData > h5 {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .SendAndRecieveTextIconBG {
+    margin-left: 20%;
+  }
+  .TotalAmount {
+    font-size: 40px;
+  }
+  .QRCodeDiv {
+    margin-left: 17%;
+  }
+  .amountIcon > img {
+    padding: 10px;
+  }
+  .totalAmountData > h6 {
+    font-size: 10px;
+    margin-left: -25px;
+  }
+  .totalAmountData > h5 {
+    font-size: 10px;
+  }
+  .totalAmountData > p {
+    font-size: 9px;
+  }
+  .navicon {
+    background-color: #ff0000;
+    border-radius: 20px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .Signin {
+    padding-left: 10px;
+  }
+  .SigninText {
+    padding-left: 10px;
+  }
 }

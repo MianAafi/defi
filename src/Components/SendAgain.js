@@ -37,7 +37,7 @@ function SendAgain() {
           bgColor={transaction.bgColor} 
         />
       ))}
-      <a className='AllTransactionLink' href="/transactions">See All Transactions</a>
+      <a className='AllTransactionLink' href="#">See All Transactions</a>
     </div></div>
   );
 }
