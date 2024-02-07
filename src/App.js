@@ -1,4 +1,5 @@
 import './App.css';
+import './Components/SendReceive.css';
 import SendAndRecieve from './Components/SendAndRecieve';
 import SendAgain from './Components/SendAgain';
 import { FaMinus } from "react-icons/fa";
