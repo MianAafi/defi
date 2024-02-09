@@ -189,6 +189,12 @@
     border: none;
     margin-top: 56px;
 }
+.ContinueTransferBtn:hover {
+   
+    background: #B3E5FC;
+color: black;
+  
+}
 
 .totalAmountData {
     padding-left: 40px;
@@ -257,6 +263,10 @@
     justify-content: center;
     align-items: center;
     margin-left: 5px;
+}
+
+.Circle:hover{
+    background-color: #2f2b35;
 }
 
 .circleIcon {
